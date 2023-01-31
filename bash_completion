@@ -1,0 +1,6 @@
+# bash completion for brssh
+
+source /usr/share/bash-completion/completions/ssh
+
+complete -F _ssh brssh
+
